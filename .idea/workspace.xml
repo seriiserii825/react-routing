@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b091a67-d36a-4972-9380-9b4e40b0f008" name="Default Changelist" comment="" />
+    <list default="true" id="1b091a67-d36a-4972-9380-9b4e40b0f008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CarDetail/CarDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cars/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cars/Car/Car.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fRmRGp2momvhktfbIqeg2OGnRw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +49,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596189269232</updated>
-      <workItem from="1596189270285" duration="3891000" />
+      <workItem from="1596189270285" duration="3965000" />
+      <workItem from="1596193644271" duration="5000" />
+      <workItem from="1596196394360" duration="2001000" />
     </task>
     <servers />
   </component>
@@ -48,6 +59,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2630" y="406" width="492" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596196975148">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2630" y="406" width="492" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.1025/1920.0.1920.1200@1920.0.1920.1200" timestamp="1596196975148" />
     <state x="2663" y="346" width="426" height="513" key="FileChooserDialogImpl" timestamp="1596190010961">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
