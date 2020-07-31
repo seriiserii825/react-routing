@@ -18,8 +18,8 @@ class App extends Component {
 							<NavLink
 								to={{
 									pathname: '/about',
-									search: '?a=1&b=2',
-									hash: 'hash'
+									// search: '?a=1&b=2',
+									// hash: 'hash'
 								}}
 							>About</NavLink>
 						</li>
