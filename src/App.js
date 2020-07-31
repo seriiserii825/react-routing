@@ -12,10 +12,16 @@ class App extends Component {
 				<nav className="nav">
 					<ul>
 						<li>
-							<NavLink to="/">Home</NavLink>
+							<NavLink to="/" exact activeClassName={'current-menu-item'}>Home</NavLink>
 						</li>
 						<li>
-							<NavLink to="/about">About</NavLink>
+							<NavLink
+								to={{
+									pathname: '/about',
+									search: '?a=1&b=2',
+									hash: 'hash'
+								}}
+							>About</NavLink>
 						</li>
 						<li>
 							<NavLink to="/cars">Cars</NavLink>
