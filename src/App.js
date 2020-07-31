@@ -1,9 +1,8 @@
 import React, {Component} from 'react'
 import './App.scss'
-import {NavLink, Route, Switch} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import About from './About/About'
 import Cars from './Cars/Cars'
-import CarDetail from './CarDetail/CarDetail'
 
 class App extends Component {
   render() {
@@ -13,21 +12,10 @@ class App extends Component {
         <nav className="nav">
           <ul>
             <li>
-              <NavLink
-                to="/"
-                exact
-                activeClassName={'wfm-active'}
-              >Home</NavLink>
+              <a href="/">Home</a>
             </li>
             <li>
-              <NavLink to="/about" activeStyle={{
-                color: 'blue'
-              }}>About</NavLink>
-            </li>
-            <li>
-              <NavLink to={{
-                pathname: '/cars/'
-              }}>Cars</NavLink>
+              <a href="/about">About</a>
             </li>
           </ul>
         </nav>
@@ -35,14 +23,11 @@ class App extends Component {
         <hr/>
 
         {/*localhost:3000*/}
-        <Switch>
-          <Route path="/" exact render={() => <h1>Home Page</h1>}/>
-          <Route path="/about" component={About}/>
-          <Route path="/cars/:name" component={CarDetail}/>
-          <Route path="/cars" component={Cars}/>
-        </Switch>
+        <Route path="/" exact render={() => <h1>Home Page</h1>} />
 
+        <About />
 
+        <Cars />
       </div>
     );
   }
